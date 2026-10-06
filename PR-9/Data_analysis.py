@@ -5,7 +5,6 @@ import matplotlib.pyplot as plt
 sales_df = pd.DataFrame(sales_data)
 current_plot = None
 
-
 while True:
 
     print("\n========== Sales Data Analysis Program ==========")
