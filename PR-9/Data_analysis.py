@@ -1,22 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import os
 
-
-sales_data = {
-    "Transaction_ID": [201, 202, 203, 204, 205],
-    "Item": ["Laptop", "Mobile", "Tablet", "Headphones", "Keyboard"],
-    "Area": ["North", "East", "West", "South", "Central"],
-    "Amount": [750, 900, 650, 450, 550],
-    "Sale_Year": [2023, 2023, 2023, 2023, 2023]
-}
 
 sales_df = pd.DataFrame(sales_data)
-
-os.makedirs("data", exist_ok=True)
-
-sales_df.to_csv("data/my_sales_data.csv", index=False)
-
 current_plot = None
 
 
