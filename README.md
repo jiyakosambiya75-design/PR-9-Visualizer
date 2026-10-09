@@ -172,6 +172,11 @@ To get the cleanest insights and avoid running into unhandled structural faults,
 * Format Continuity: Ensure target metrics columns (like revenue fields or quantity pools) contain strict numeric variables before attempting to run descriptive statistics maps.
 * Save Frequently: Because terminal states persist in temporary application cache pools, always save important visual charts using the integrated save option before mounting a completely new dataset.
 
+---
+
+Explanation video:https://drive.google.com/file/d/123M5RuUnZtwYQerdHAetoC9d1uprJyfz/view?usp=drivesdk
+
+---
 ------------------------------
 ## ✨ Contributor Ecosystem & Collaboration Protocols
 This program thrives on community contributions and iterative feature upgrades! If you plan to expand the architecture, feel free to fork the workspace and experiment with custom data pipelines.
